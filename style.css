@@ -1,0 +1,85 @@
+html {
+    margin:0;
+    font-size: 10px;
+    background-color: lightcoral;
+    background-size: cover;
+  }
+
+  body,html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+  }
+  
+  .header{
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: larger;
+      padding-bottom: 150px;
+  }
+
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .buttons-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .grid-container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  .grid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 600px;
+  }
+  
+  .gridRows{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 15px;
+      width: 15px;
+      
+  }
+  .footer{
+      display: flex;
+      padding-top: 200px;
+      justify-content: center;
+      align-items: flex-end;
+  }
+  .row{
+      border: 1px solid black;
+      background-color: antiquewhite;
+      height: 15px;
+      width: 15px;
+  }
+  .column{
+      border: 1px solid black;
+      background-color: antiquewhite;
+      height: 15px;
+      width: 15px;
+  }
+
+  .button{
+    width: 30px;
+    height: 20px;
+    margin-bottom: 10px;
+  }
